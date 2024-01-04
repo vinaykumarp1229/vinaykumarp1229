@@ -1,0 +1,33 @@
+#navigate to root directory                         
+#  navigate to desktop create a folder named parent 
+#navigate to parent create a sun directory as child .
+#  navigate to downloads create directory named siblings and in sibling creat a file new.txt.
+# navigate to parent remove child .
+# edit new with text mentioned below.
+#Multiple inheritance means that a subclass can inherit from two or more superclasses. C++ allows multiple inheritance, but Java allows only single inheritance, that is, a subclass can inherit only
+#copy the new to parent. directory.
+
+
+1.  cd /
+
+2. mkdir -p ~/Desktop/parent
+
+3. cd ..
+    mkdir child
+
+4. cd ~/Downloads
+     mkdir siblings
+     cd siblings
+      touch new.txt
+
+5. rmdir child
+
+6. nano new.txt   or
+echo "Multiple inheritance means that a subclass can inherit from two or more superclasses. C++ allows multiple inheritance, but Java allows only single inheritance, that is, a subclass can inherit only" >> new.txt
+
+
+7. cp new.txt ../parent/
+
+
+
+
